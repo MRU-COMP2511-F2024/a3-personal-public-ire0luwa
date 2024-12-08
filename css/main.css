@@ -2,8 +2,8 @@
 
 body {
     font-family: 'Times New Roman', Times, serif;
-    background-color: #a0522d; /* Brown background, main theme for my portfolio */
-    color: #fff; /* White text */
+    background-color: #8b3e1a; /* Brown background, main theme for my portfolio */
+    color: ghostwhite; /* White text */
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -21,12 +21,14 @@ header {
     font-size: 1.5em;
 }
 .top-right:active{
- text-decoration: underline;
+ text-decoration: none;
 }
+
 .top-right a:hover,
 .top-right a:focus,
 .top-right a.active{
     color: goldenrod;
+    
 }
 .top-right ul {
     list-style: none;
@@ -35,7 +37,7 @@ header {
 }
 
 .top-right a {
-    text-decoration: underline;
+    
     color: #fff;
     font-weight: bold;
 }
