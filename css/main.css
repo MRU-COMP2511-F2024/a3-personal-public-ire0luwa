@@ -20,11 +20,10 @@ header {
 .top-left h1 {
     font-size: 1.5em;
 }
-.top-right:active{
- text-decoration: none;
-}
 
-.top-right a:hover,
+.top-right a:hover{
+    color: gold;
+}
 .top-right a:focus,
 .top-right a.active{
     color: goldenrod;
@@ -37,7 +36,6 @@ header {
 }
 
 .top-right a {
-    
     color: #fff;
     font-weight: bold;
 }
