@@ -1,47 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width = device-width, initial-scale = 1.0">
 
-        <title>Contact - Lola Amokade</title>
-        <link rel="stylesheet" href="css/main.css">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0">
 
-    <body>
-        <header>
-            <h1>Contact Me</h1>
-            <nav class="menu">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="overview.html">Overview</a></li>
-                    <li><a href="project.html">Project</a></li>
-                    <li><a href="artefact.html">Artefact</a></li>
-                    <li><a href="others.html">Others</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
+    <title>Contact - Lola Amokade</title>
+    <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/contact.css"> 
+    
+</head>
 
-        <main>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="top-left">
+            <h1>Lola Amokade</h1>
+        </div>
+        <nav class="top-right">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="overview.html">Overview</a></li>
+                <li><a href="project.html">Project</a></li>
+                <li><a href="artefact.html">Artefact</a></li>
+                <li><a href="others.html">Others</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="contact-form">
+            <h2>Contact Me</h2>
             <form action="mailto:damok465@mtroyal.ca" method="post">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-    
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-    
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-    
-                <button type="submit">Send</button>
-            </form>
-        </main>
+                
+                <div class="input-wrapper">
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" required><br>
+                </div>
 
-        <footer>
-            <p>&copy; 2024 Lola Amokade</p>
-        </footer>
-        
-        
-    </body>
+             
+                <div class="input-wrapper">
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br>
+                </div>
+
+              
+                <div class="input-wrapper">
+                    <label for="phone">Phone Number:</label><br>
+                    <input type="tel" id="phone" name="phone" required><br>
+                </div>
+
+                
+                <div class="input-wrapper">
+                    <label for="message">Your Message:</label><br>
+                    <textarea id="message" name="message" required></textarea><br>
+                </div>
+
+                
+                <div class="form-buttons">
+                    <button type="submit" class="submit-button">Submit</button><br>
+                    <button type="reset" class="reset-button">Reset</button><br>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Lola Amokade</p>
+    </footer>
+
+
+</body>
+
 </html>
