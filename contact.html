@@ -4,23 +4,43 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width = device-width, initial-scale = 1.0">
 
-        <title>Contact</title>
+        <title>Contact - Lola Amokade</title>
         <link rel="stylesheet" href="css/main.css">
     </head>
 
     <body>
         <header>
-            <nav class="active">
+            <h1>Contact Me</h1>
+            <nav class="menu">
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="overview.html">Overview</a></li>
-                    <li><a href="ePortfolio.html">Portfolio</a></li>
-                    <li><a href="history.html">History</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="contact.html">Contact</a></li>   
+                    <li><a href="project.html">Project</a></li>
+                    <li><a href="artefact.html">Artefact</a></li>
+                    <li><a href="others.html">Others</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
         </header>
+
+        <main>
+            <form action="mailto:damok465@mtroyal.ca" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+    
+                <button type="submit">Send</button>
+            </form>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Lola Amokade</p>
+        </footer>
         
         
     </body>
