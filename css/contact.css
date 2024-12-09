@@ -33,7 +33,7 @@
 
 .contact-form input:focus,
 .contact-form textarea:focus {
-    outline: 2px solid red; /* Red outline on focus */
+    outline: 2px solid brown; /* Red outline on focus */
 }
 
 

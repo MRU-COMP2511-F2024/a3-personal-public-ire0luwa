@@ -1,5 +1,4 @@
 
-
 body {
     font-family: 'Times New Roman', Times, serif;
     background-color: #8b3e1a; /* Brown background, main theme for my portfolio */
@@ -14,7 +13,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-   /* padding: 1em 1em;*/
+    
+   padding: 1em 1em;
 }
 
 .top-left h1 {
@@ -47,6 +47,7 @@ main {
     justify-content: center;
     align-items: center;
     text-align: center;
+    font-size: large;
 }
 
 .intro {
@@ -95,3 +96,4 @@ footer {
 .social-links a:hover {
     text-decoration: underline;
 }
+
